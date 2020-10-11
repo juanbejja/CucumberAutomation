@@ -3,7 +3,7 @@ package pom;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class ComicsPage extends BasePage {
+public class ComicsPage extends Utilidades {
 
 	private By tituloComics = By.className("page-title");
 	private String titlePage = "Category: comics";

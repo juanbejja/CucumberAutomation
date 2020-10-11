@@ -1,0 +1,22 @@
+{
+  "name": "cucumberautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "report": "node index.js"
+  },
+  "repository": {
+    "type": "git", 
+    "url": "git+https://github.com/juanbejja/CucumberAutomation.git"
+  },
+  "author": "Juan Pablo Bejarano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanbejja/CucumberAutomation/issues"
+  },
+  "homepage": "https://github.com/juanbejja/CucumberAutomation#readme",
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  }
+}

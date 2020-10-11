@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10210749000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "busqueda multiple desde la home de iamlittletester",
+        "description": "Given: El usuario se encuentra en la pagina Home",
+        "id": "categoria-comics;busqueda-multiple-desde-la-home-de-iamlittletester",
+        "after": [
+          {
+            "result": {
+              "duration": 843408300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1077113200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Ingreso multiple",
+            "match": {
+              "location": "Steps.ingresoMultiple(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "datos"
+                ],
+                "line": 31
+              },
+              {
+                "cells": [
+                  "cotto"
+                ],
+                "line": 32
+              },
+              {
+                "cells": [
+                  "duki"
+                ],
+                "line": 33
+              },
+              {
+                "cells": [
+                  "cro"
+                ],
+                "line": 34
+              },
+              {
+                "cells": [
+                  "malafama"
+                ],
+                "line": 35
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@ejecutar"
+          }
+        ]
+      }
+    ],
+    "name": "Categoria Comics",
+    "description": "Como usuario quiero leer chistes de testers para reirme",
+    "id": "categoria-comics",
+    "keyword": "Feature",
+    "uri": "MyTest.feature"
+  }
+]
